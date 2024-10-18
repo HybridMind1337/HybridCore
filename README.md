@@ -35,4 +35,8 @@ HybridCore is accessible, powerful, and provides the necessary tools for buildin
 
 2. 🚀 Upload the core files to your web hosting and run the `composer install` command in the terminal.
 
-📁 If you are testing the core in a subfolder, please check the `.htaccess` file.
+📁 If you are testing the core or using it in a subfolder, please modify the `.htaccess` file. Uncomment the following line:
+```
+RewriteBase /hybridcore/
+```
+Replace `/hybridcore/` with the name of the folder where the core is located.
