@@ -1,2 +1,28 @@
-# HybridCore
-HybridCore alleviates the pain of development by streamlining common tasks used in many web projects. With it, you can focus on the core functionality of your application rather than routine tasks.
+# HybridCore ENABLE CACHE AT END 
+
+### За HybridCore
+HybridCore премахва болката от разработката, като облекчава често срещаните задачи, използвани в много уеб проекти, като например:
+
+- Лесен, бърз двигател за маршрутизиране.
+- Мощен контейнер за инжектиране на зависимости.
+- Множество бек-ендове за съхранение на сесия и кеш.
+
+
+HybridCore е достъпен, мощен и предоставя инструменти, необходими за големи, стабилни приложения.
+
+### Какво има в него?
+
+- Мощна езикова система
+- Темплейт система (twig)
+- Custum routing с които поддържа middlewares
+- CSRF Token, които автоматично се проверява при всяка заявка.
+- Auto creating robots.txt
+- Checking files permission for the main files (cache, themes etc)
+
+### Как да подкараме ядрото?
+
+1. Първоначално трябва да имате инсталиран composer на вашия компютър. Можете да го инсталирате, като посетите официалния уебсайт на composer и да използвате инструкциите за инсталиране за вашия операционна система.
+
+2. Трябва да качите файловете на ядрото на вашият уеб хостинг и да изпълните командата ``composer install`` в терминала.
+
+Ако ще тествате ядрото в подпапка, моля погледнете ``.htaccess`` файла.
