@@ -1,39 +1,38 @@
 # HybridCore: ENABLE CACHE AT END 
 
-### За HybridCore
-HybridCore е решение, което облекчава разработката, като опростява често срещаните задачи, използвани в множество уеб проекти. Той предлага:
+### About HybridCore
+HybridCore is a solution that simplifies development by streamlining common tasks used in various web projects. It offers:
 
-- 🚀 **Лесен и бърз двигател за маршрутизиране.**
-- 🛠️ **Мощен контейнер за инжектиране на зависимости.**
-- 💾 **Разнообразие от бек-енд решения за съхранение на сесии и кеш.**
+- 🚀 **Easy and fast routing engine.**
+- 🛠️ **Powerful dependency injection container.**
+- 💾 **Variety of back-end solutions for session and cache storage.**
 
-HybridCore е достъпен, мощен и предоставя необходимите инструменти за изграждане на големи и стабилни приложения.
+HybridCore is accessible, powerful, and provides the necessary tools for building large and stable applications.
 
-### Какво има в него?
+### What's Included?
 
-- 🌍 **Мощна езикова система:** Поддържа множество езици и локализации, позволявайки управление на различни стрингове и формати.
+- 🌍 **Powerful language system:** Supports multiple languages and localizations, allowing for management of various strings and formats.
 
-- 🎨 **Темплейт система (Twig):** Гъвкава система за управление на изгледите, която улеснява персонализирането и разширяването на дизайна на сайта.
+- 🎨 **Template system (Twig):** A flexible view management system that simplifies customizing and extending the site's design.
 
-- 🔗 **Персонализирано маршрутизиране с поддръжка на middleware:** Позволява добавяне на middleware за обработка на HTTP заявки и управление на достъпа.
+- 🔗 **Custom routing with middleware support:** Allows for the addition of middleware for handling HTTP requests and managing access.
 
-- 🔒 **CSRF токен:** Защитава формулярите и HTTP заявки от Cross-Site Request Forgery атаки, автоматично проверявайки токена при всяка заявка.
+- 🔒 **CSRF token:** Protects forms and HTTP requests from Cross-Site Request Forgery attacks by automatically validating the token with each request.
 
-- 📄 **Автоматично създаване на robots.txt:** Генерира и управлява файла robots.txt, контролирайки индексацията на сайта от търсачките.
+- 📄 **Automatic creation of robots.txt:** Generates and manages the robots.txt file, controlling the site's indexing by search engines.
 
-- 🔍 **Проверка на правата за достъп до основните файлове:** Установява правата за достъп до важни файлове и директории (като кеш и теми), осигурявайки допълнителна сигурност.
+- 🔍 **Access rights checking for essential files:** Establishes access rights to important files and directories (such as cache and themes), ensuring additional security.
 
-- ⚙️ **Настройки на сайта, работещи с кеш:** Управлява конфигурации и настройки на сайта с кеш механизъм, увеличавайки производителността и скоростта на зареждане.
+- ⚙️ **Site settings working with cache:** Manages configurations and settings for the site with a caching mechanism, enhancing performance and loading speed.
 
-- 📈 **AnalyticsTracker:** Записва посещенията на потребителите и предотвратява дублирането на записи, събирайки информация за IP адреси, времеви маркировки и референтни URL адреси, предоставяйки анализи на трафика на сайта.
+- 📈 **AnalyticsTracker:** Records user visits and prevents duplicate entries by collecting information on IP addresses, timestamps, and referring URLs, providing traffic analysis for the site.
 
-- ✨ **Разширения:** Системата разполага с разширения, които могат да се създават от всички, предоставяйки както платени, така и безплатни опции.
+- ✨ **Extensions:** The system features extensions that can be created by anyone, offering both paid and free options.
 
+### How to Run the Core?
 
-### Как да подкараме ядрото?
+1. ✅ Make sure you have Composer installed on your computer. You can install it by visiting the [official Composer website](https://getcomposer.org/) and following the installation instructions for your operating system.
 
-1. ✅ Уверете се, че имате инсталиран Composer на вашия компютър. Можете да го инсталирате, като посетите [официалния уебсайт на Composer](https://getcomposer.org/) и следвате инструкциите за инсталиране за вашата операционна система.
+2. 🚀 Upload the core files to your web hosting and run the `composer install` command in the terminal.
 
-2. 🚀 Качете файловете на ядрото на вашия уеб хостинг и изпълнете командата `composer install` в терминала.
-
-📁 Ако тествате ядрото в подпапка, моля, прегледайте файла `.htaccess`.
+📁 If you are testing the core in a subfolder, please check the `.htaccess` file.
