@@ -1,4 +1,4 @@
-# HybridCore: ENABLE CACHE AT END 
+# HybridCore
 
 ### About HybridCore
 HybridCore is a solution that simplifies development by streamlining common tasks used in various web projects. It offers:
